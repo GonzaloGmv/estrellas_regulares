@@ -3,7 +3,7 @@ from turtle import *
 perimetro = 0
 acabado = False
 i = 1
-n = int(input())
+n = int(input("Introduzca el numero de vertices que quiere que tenga la estrella: "))
 begin_fill()
 while True:
     turtle.speed('fastest')
