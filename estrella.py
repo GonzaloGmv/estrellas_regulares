@@ -6,6 +6,7 @@ i = 1
 n = int(input())
 begin_fill()
 while True:
+    turtle.speed('fastest')
     forward(200)
     left(180-i)
     perimetro = perimetro + 200
